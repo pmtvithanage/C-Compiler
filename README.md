@@ -550,4 +550,3 @@ The compiler successfully balances educational clarity with practical functional
 
 The addition of control flow structures demonstrates how to extend a simple compiler with more complex features while maintaining code quality and readability.
 
-For questions or extensions, see the IMPLEMENTATION_NOTES.md for technical details on how each feature is implemented.
