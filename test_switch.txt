@@ -1,0 +1,13 @@
+int choice = 1;
+switch (choice) {
+    case 1:
+        int i = choice + 3;
+        print(i);
+        break;
+    case 2:
+        print(20);
+        break;
+    default:
+        print(i);
+        break;
+}

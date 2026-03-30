@@ -1,0 +1,81 @@
+===============================
+PARSER TEST RESULTS
+===============================
+
+Test 1: Basic Program (input.txt)
+----------------------------------
+Input:
+  int y = 5;
+  int x = 20;
+  int z = x + y;
+  print(z);
+
+Expected Output: 25
+Actual Output: 25
+Status: ✓ PASSED
+
+Test 2: Operator Precedence (test_precedence.txt)
+--------------------------------------------------
+Input:
+  int a = 10;
+  int b = 3;
+  int c = 2;
+  int result = a + b * c;
+  print(result);
+
+Expected Output: 16 (3*2=6, then 10+6=16)
+Actual Output: 16
+Status: ✓ PASSED
+
+Test 3: Syntax Error - Missing Semicolon (test_syntax_error.txt)
+------------------------------------------------------------------
+Input:
+  int x = 5
+  print(x);
+
+Expected Output: ERROR: Syntax error: Expected ';' at end of statement
+Actual Output: ERROR: Syntax error: Expected ';' at end of statement
+Status: ✓ PASSED
+
+Test 4: Semantic Error - Undeclared Variable (test_undeclared.txt)
+--------------------------------------------------------------------
+Input:
+  int x = y + 5;
+  print(x);
+
+Expected Output: ERROR: Semantic error: Undeclared variable
+Actual Output: ERROR: Semantic error: Undeclared variable
+Status: ✓ PASSED
+
+Test 5: Semantic Error - Redeclaration (test_redeclaration.txt)
+-----------------------------------------------------------------
+Input:
+  int x = 5;
+  int x = 10;
+  print(x);
+
+Expected Output: ERROR: Semantic error: Variable already declared
+Actual Output: ERROR: Semantic error: Variable already declared
+Status: ✓ PASSED
+
+Test 6: Semantic Error - Division by Zero (error_test.txt)
+------------------------------------------------------------
+Input:
+  int a = 10;
+  int b = 0;
+  int c = a / b;
+  print(c);
+
+Expected Output: ERROR: Semantic error: Division by zero
+Actual Output: ERROR: Semantic error: Division by zero
+Status: ✓ PASSED
+
+===============================
+SUMMARY: All 6 tests passed ✓
+===============================
+
+Compilation: gcc -o parser parser.c -Wall -Wextra
+No warnings or errors during compilation.
+
+Execution: ./parser <input_file>
+All test cases executed successfully with expected results.

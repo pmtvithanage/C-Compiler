@@ -1,0 +1,304 @@
+int a = 100;
+int b = 50;
+int c = 25;
+int x = 10;
+int y = 20;
+int z = 0;
+int i = 0;
+int result = 0;
+
+print(1);
+
+z = x + y;
+print(z);
+
+z = x * y / 2;
+print(z);
+
+if (x < y) {
+    print(2);
+}
+
+if (x > y) {
+    print(3);
+} else {
+    print(2);
+}
+
+if (x == 10) {
+    print(10);
+} else {
+    print(0);
+}
+
+if (x != y) {
+    print(4);
+}
+
+if (x <= 10) {
+    print(5);
+}
+
+if (y >= 20) {
+    print(6);
+}
+
+if (x > 5 && y > 10) {
+    print(7);
+}
+
+if (x < 5 || y > 15) {
+    print(8);
+}
+
+if (!(x == y)) {
+    print(9);
+}
+
+if (x > 5 && y > 10 && z > 50) {
+    print(11);
+}
+
+if (x < 5 || y < 10 || z < 50) {
+    print(12);
+} else {
+    print(13);
+}
+
+int num = 0;
+if (num == 0) {
+    print(14);
+}
+
+int status = 1;
+if (status) {
+    print(15);
+}
+
+int factor = 2;
+int doubled = x * factor;
+print(doubled);
+
+int value1 = 7;
+int value2 = 3;
+int value3 = 0;
+value3 = value1 + value2;
+print(value3);
+
+value3 = value1 - value2;
+print(value3);
+
+value3 = value1 * value2;
+print(value3);
+
+value3 = value1 / value2;
+print(value3);
+
+int n1 = 15;
+int n2 = 8;
+
+if (n1 > n2 && n1 > 10) {
+    print(20);
+}
+
+if (n1 < 10 || n2 > 10) {
+    print(21);
+} else {
+    print(22);
+}
+
+int state = 0;
+while (state < 3) {
+    print(30);
+    state = state + 1;
+}
+
+int loop_count = 0;
+int loop_sum = 0;
+while (loop_count < 5) {
+    loop_sum = loop_sum + loop_count;
+    loop_count = loop_count + 1;
+}
+print(loop_sum);
+
+i = 0;
+while (i < 3) {
+    print(40);
+    i = i + 1;
+}
+
+int factorial = 1;
+int j = 1;
+while (j <= 5) {
+    factorial = factorial * j;
+    j = j + 1;
+}
+print(factorial);
+
+int forward_sum = 0;
+int k = 1;
+while (k <= 10) {
+    forward_sum = forward_sum + k;
+    k = k + 1;
+}
+print(forward_sum);
+
+int grade = 85;
+switch (grade) {
+    case 90:
+        print(60);
+        break;
+    case 85:
+        print(61);
+        break;
+    case 80:
+        print(62);
+        break;
+    default:
+        print(63);
+        break;
+}
+
+int choice = 2;
+switch (choice) {
+    case 1:
+        print(70);
+        break;
+    case 2:
+        print(71);
+        break;
+    case 3:
+        print(72);
+        break;
+    default:
+        print(73);
+        break;
+}
+
+int selection = 5;
+switch (selection) {
+    case 1:
+        print(80);
+        break;
+    case 2:
+        print(81);
+        break;
+    case 3:
+        print(82);
+        break;
+    default:
+        print(83);
+        break;
+}
+
+int p = 10;
+int q = 3;
+int r = 0;
+r = p + q * 2;
+print(r);
+
+r = (p + q) * 2;
+print(r);
+
+r = p * q + q;
+print(r);
+
+r = p / q + 1;
+print(r);
+
+int m = 8;
+int n = 4;
+if (m > n && m > 5) {
+    if (n > 2) {
+        print(90);
+    } else {
+        print(91);
+    }
+} else {
+    print(92);
+}
+
+int test_value = 50;
+if (test_value > 40) {
+    if (test_value < 60) {
+        print(100);
+    } else {
+        print(101);
+    }
+} else {
+    print(102);
+}
+
+int condition_a = 1;
+int condition_b = 1;
+int condition_c = 0;
+
+if (condition_a && condition_b) {
+    print(110);
+}
+
+if (condition_a || condition_c) {
+    print(111);
+}
+
+if (!condition_c) {
+    print(112);
+}
+
+if (condition_a && condition_b && !condition_c) {
+    print(113);
+}
+
+int counter1 = 0;
+int total1 = 0;
+while (counter1 < 4) {
+    total1 = total1 + counter1;
+    counter1 = counter1 + 1;
+}
+print(total1);
+
+int counter2 = 0;
+int total2 = 0;
+while (counter2 < 6) {
+    total2 = total2 + counter2;
+    counter2 = counter2 + 1;
+}
+print(total2);
+
+int power_result = 1;
+int exp = 0;
+while (exp < 4) {
+    power_result = power_result * 2;
+    exp = exp + 1;
+}
+print(power_result);
+
+int fibonacci_a = 0;
+int fibonacci_b = 1;
+int fibonacci_c = 0;
+int fib_i = 0;
+while (fib_i < 3) {
+    fibonacci_c = fibonacci_a + fibonacci_b;
+    fibonacci_a = fibonacci_b;
+    fibonacci_b = fibonacci_c;
+    fib_i = fib_i + 1;
+}
+print(fibonacci_c);
+
+int final_result = 0;
+final_result = a + b - c;
+print(final_result);
+
+final_result = a - b + c;
+print(final_result);
+
+final_result = a * b / b;
+print(final_result);
+
+if (final_result > 0) {
+    print(200);
+} else {
+    print(201);
+}
+
+print(999);

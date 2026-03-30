@@ -1,0 +1,5 @@
+int y = 5;
+int x = 20;
+int z = 10;
+z = x + y*x;
+print(z);
